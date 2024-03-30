@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import Container from '@/component/container';
+import Container from '@/component/Container';
 
 const HoverShadowDiv: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
