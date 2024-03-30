@@ -1,0 +1,16 @@
+.tracing-beam {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px; /* Adjust the width of the tracing beam */
+    height: 0;
+    background-color: #ff0000; /* Adjust the color of the tracing beam */
+    z-index: 1000;
+    transition: height 0.3s ease-out;
+  }
+  
+  .show-tracing-beam {
+    height: 100px; /* Adjust the height of the tracing beam */
+  }
+  
